@@ -31,12 +31,12 @@ header nav ul li a {
 header nav ul li a:hover {
   background-color: #93bfcfaf;
 }
-section{
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
+section {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
 }
 main #banner article h2 {
   font-family: "Montserrat";
@@ -53,19 +53,19 @@ main #banner article p {
   font-size: 15px;
 }
 main aside img {
-    width: 350px;
-    height: 300px;
-    padding-top: 10px;
+  width: 350px;
+  height: 300px;
+  padding-top: 10px;
 }
-main #pesan{
-    background-color: #6096b4;
-    height: 300px;
-    width: 100%;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+main #pesan {
+  background-color: #6096b4;
+  height: 300px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 main #pesan article h4 {
   font-family: "Montserrat";
@@ -80,60 +80,58 @@ main #pesan article p {
   text-align: center;
   font-size: 18px;
 }
-section #biodata{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding-bottom: 200px;
+section #biodata {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 200px;
 }
-main #biodata aside h3{
-    font-family: 'Montserrat';
-    color: #41657a;
-    font-size: 30px;
-    padding-bottom: 15px;
+main #biodata aside h3 {
+  font-family: "Montserrat";
+  color: #41657a;
+  font-size: 30px;
+  padding-bottom: 15px;
 }
-main #biodata aside p{
-    font-family: 'Montserrat';
-    padding-top: 5px;
-    font-size: 14px;
-    color: black;
+main #biodata aside p {
+  font-family: "Montserrat";
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
 }
-main #fotodiri aside img{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
+main #fotodiri aside img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
 }
-footer{
+footer {
   background-color: #6096b4;
   width: 100%;
   height: 250px;
 }
-footer .container .row{
+footer .container .row {
   display: flex;
   justify-content: space-around;
   text-align: center;
   align-items: center;
   padding-top: 70px;
 }
-.logobwh img{
+.logobwh img {
   width: 300px;
   height: 70px;
 }
-footer ul{
+footer ul {
   list-style: none;
 }
-footer .col h4{
-  font-family: 'Montserrat';
+footer .col h4 {
+  font-family: "Montserrat";
   font-size: 18px;
   color: #1e3a49;
   padding-bottom: 15px;
 }
-footer .col ul li{
+footer .col ul li {
   padding-bottom: 10px;
 }
-footer .col ul li a{
-  font-family: 'Montserrat';
+footer .col ul li a {
+  font-family: "Montserrat";
   font-size: 12px;
   color: white;
   text-decoration: none;
@@ -144,7 +142,7 @@ footer .copyr {
   height: 50px;
   margin-top: 80px;
 }
-footer .copyr h4{
+footer .copyr h4 {
   color: #1e3a49;
   display: flex;
   align-items: center;
@@ -158,19 +156,56 @@ footer .copyr h4{
 }*/
 
 /*large desktop and up*/
-@media only screen and (min-width: 992px){
-  }
+@media only screen and (min-width: 992px) {
 }
+
 /*medium tablet dan large hp and up*/
 @media only screen and (min-width: 768px) {
-
-  }
 }
 /*small portrait tablet dan large hp and up*/
 @media only screen and (min-width: 600px) {
-
-  }
 }
+
 /*extra small hp and down*/
 @media only screen and (max-width: 600px) {
+  header {
+    padding-left: 10px;
+  }
+
+  header nav ul {
+    padding: 0;
+    margin-right: 10px;
+  }
+
+  header nav ul li a {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  main aside img {
+    width: 30vw;
+    height: 30vw;
+    padding-top: 10px;
+  }
+
+  main #fotodiri aside img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+  }
+
+  .logobwh img {
+    width: 150px;
+    height: 30px;
+  }
+
+  footer .container .col {
+    margin-bottom: 20px;
+  }
+
+  footer .container .row {
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: #6096b4;
+  }
 }
